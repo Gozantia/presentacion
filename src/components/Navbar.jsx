@@ -10,22 +10,19 @@ function Navbar(props){
       <div className="redes">
       <a
           href="https://github.com/Gozantia"
-          without
           rel="noopener noreferrer" target="_blank"
-        > <i class="fa fa-github"></i></a>
+        > <i className="fa fa-github"></i></a>
        <a
           href="https://www.linkedin.com/in/gozantia/"
-          without
           rel="noopener noreferrer" target="_blank"
         >
-            <i class="fa fa-linkedin"></i>
+            <i className="fa fa-linkedin"></i>
         </a>
         <a
           href="https://www.twitter.com/gozantia/"
-          without
           rel="noopener noreferrer" target="_blank"
         >
-            <i class="fa fa-twitter"></i>
+            <i className="fa fa-twitter"></i>
         </a>
       </div>
       <ul>

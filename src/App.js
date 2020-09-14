@@ -5,15 +5,13 @@ import Acercade from './components/content/Acerca_de'
 import Contacto from './components/content/Contacto'
 import Trabajos from './components/content/Trabajos'
 import Side from './components/Side'
+import Fade from 'react-reveal/Fade';
 
 export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       fondo: "verde fondo",
-      showAcercade: true,
-      showTrabajos: false,
-      showContacto: false
     }
     this.Component1 = this.Component1.bind(this);
     this.Component2 = this.Component2.bind(this);
@@ -54,16 +52,21 @@ export default class App extends Component {
 
     return (
       <article className={fondo}>
+       
         <header >
+           <Fade right>
           <Side />
+          </Fade>
         </header>
+      
           <section className="contenedor">
+          <Fade right>
           {showAcercade && <Acercade/>}
+          </Fade>
           {showTrabajos && <Trabajos/>}
           {showContacto && <Contacto/>}
           </section>
-        <Navbar
-        Component1={this.Component1}
+        <Navbar Component1={this.Component1}
         Component2={this.Component2}
         Component3={this.Component3}/>
       </article>

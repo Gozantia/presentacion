@@ -5,7 +5,7 @@ export default class Side extends Component {
         return (
             <section>
                 <div id="foto">
-                <img src={foto}  alt="gozantia" srcset=""/>
+                <img src={foto}  alt="gozantia"/>
                 </div>
             </section>
             
