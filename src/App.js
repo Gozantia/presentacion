@@ -1,26 +1,72 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import Navbar from './components/Navbar'
+import Acercade from './components/content/Acerca_de'
+import Contacto from './components/content/Contacto'
+import Trabajos from './components/content/Trabajos'
+import Side from './components/Side'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      fondo: "verde fondo",
+      showAcercade: true,
+      showTrabajos: false,
+      showContacto: false
+    }
+    this.Component1 = this.Component1.bind(this);
+    this.Component2 = this.Component2.bind(this);
+    this.Component3 = this.Component3.bind(this);
+  }
+    Component1 = ()=>{ 
+      this.setState({ 
+        showAcercade:true,
+        showTrabajos: false,
+        showContacto: false,
+        fondo: 'verde fondo'
+      }
+        );
+    }
+    Component2 = ()=>{ 
+      this.setState(
+        {
+          showTrabajos: true,
+          showAcercade: false,
+          showContacto: false,
+          fondo: "amarillo fondo"
+         }
+        );
+    }
+    Component3 = ()=>{ 
+      this.setState(
+        { showContacto: true,
+          showTrabajos: false,
+          showAcercade: false,
+          fondo: "rojo fondo"
+         }
+        );
+    }
+
+
+  render() {
+    const { fondo, showAcercade, showTrabajos, showContacto } = this.state;
+
+    return (
+      <article className={fondo}>
+        <header >
+          <Side />
+        </header>
+          <section className="contenedor">
+          {showAcercade && <Acercade/>}
+          {showTrabajos && <Trabajos/>}
+          {showContacto && <Contacto/>}
+          </section>
+        <Navbar
+        Component1={this.Component1}
+        Component2={this.Component2}
+        Component3={this.Component3}/>
+      </article>
+    )
+  }
 }
-
-export default App;
