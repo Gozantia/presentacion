@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Navbar(props){
-  const { Component1,Component2, Component3} = props;
+  const { show1, show2,show3} = props;
 
   return ( 
   <section className="nav">
@@ -26,13 +26,13 @@ function Navbar(props){
         </a>
       </div>
       <ul>
-        <li onClick={Component1}>
+        <li onClick={show1} className="grow">
         Acerca de mi
         </li>
-        <li onClick={Component2}>
+        <li onClick={show2} className="grow">
         Trabajos
         </li>
-        <li onClick={Component3}>
+        <li onClick={show3} className="grow">
         Contacto
         </li>
       </ul>

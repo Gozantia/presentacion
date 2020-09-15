@@ -12,43 +12,42 @@ export default class App extends Component {
     super(props);
     this.state = {
       fondo: "verde fondo",
+      show1: false,
+      show2: false,
+      show3: false
     }
-    this.Component1 = this.Component1.bind(this);
-    this.Component2 = this.Component2.bind(this);
-    this.Component3 = this.Component3.bind(this);
+    this.show1 = this.show1.bind(this);
+    this.show2 = this.show2.bind(this);
+    this.show3 = this.show3.bind(this);
   }
-    Component1 = ()=>{ 
-      this.setState({ 
-        showAcercade:true,
-        showTrabajos: false,
-        showContacto: false,
-        fondo: 'verde fondo'
-      }
-        );
-    }
-    Component2 = ()=>{ 
-      this.setState(
-        {
-          showTrabajos: true,
-          showAcercade: false,
-          showContacto: false,
-          fondo: "amarillo fondo"
-         }
-        );
-    }
-    Component3 = ()=>{ 
-      this.setState(
-        { showContacto: true,
-          showTrabajos: false,
-          showAcercade: false,
-          fondo: "rojo fondo"
-         }
-        );
-    }
+  show1() {
+    this.setState({ 
+      show1:true,
+      show2: false,
+      show3: false,
+      fondo: 'verde fondo'
+     });
+  }
+  show2() {
+    this.setState({ 
+      show1:false,
+      show2: true,
+      show3: false,
+      fondo: 'amarillo fondo'
+     });
+  }
+  show3() {
+    this.setState({ 
+      show1:false,
+      show2: false,
+      show3: true,
+      fondo: 'rojo fondo'
+     });
+  }
 
 
   render() {
-    const { fondo, showAcercade, showTrabajos, showContacto } = this.state;
+    const { fondo, show1, show2, show3} = this.state;
 
     return (
       <article className={fondo}>
@@ -60,15 +59,23 @@ export default class App extends Component {
         </header>
       
           <section className="contenedor">
-          <Fade right>
-          {showAcercade && <Acercade/>}
+          {show1 && <Fade left><Acercade/></Fade>}
+          
+          {show2 && <Fade left>
+          <Trabajos/>
           </Fade>
-          {showTrabajos && <Trabajos/>}
-          {showContacto && <Contacto/>}
+          }
+          {show3 &&
+          <Fade left>
+          <Contacto/>
+          </Fade>
+          }
           </section>
-        <Navbar Component1={this.Component1}
-        Component2={this.Component2}
-        Component3={this.Component3}/>
+        <Navbar
+        show1={this.show1}
+        show2={this.show2}
+        show3={this.show3}
+        />
       </article>
     )
   }

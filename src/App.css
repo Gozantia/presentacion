@@ -27,6 +27,25 @@ section ul {
   padding: 0;
   margin: 0 auto;
 }
+a {
+  color: #3F51B5;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: #d612ac;
+}
+a#whatsapp {
+  color: #CDDC39;
+  font-size: 34px;
+  vertical-align: middle;
+  margin: 5px;
+}
+img#gif {
+  width: 145px;
+  float: right;
+  margin: 10px;
+}
 li {
 cursor: pointer;
 font-family: 'Playfair Display', serif;
@@ -34,6 +53,9 @@ list-style: none;
 font-size: 14px;
 line-height: 3;
 
+}
+.ajustecontenido {
+  top: -220px;
 }
 
 .redes a {
@@ -48,9 +70,18 @@ line-height: 3;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  font-size: 17px;
+  padding: 0 10px;
+  justify-content: space-between;
 }
+.grow { 
+  transition: all .4s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1);
+  color: #a00e80;
+  margin-right:10px;
+  }
 
 .acercade p {
   padding: 0 19px 0 0;
@@ -112,7 +143,8 @@ line-height: 3;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 37% 100%, 50% 75%, 0% 75%);
 }
 #foto img {
-  width: 250px;
+  width: 180px;
+  opacity: 0.5;
 }
 header {
   margin: 0 auto -10px;
@@ -120,7 +152,7 @@ header {
 }
 
 .acercade {
-  height: 310px;
+  height: 235px;
   width: auto;
   overflow-x: hidden;
 }

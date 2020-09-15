@@ -9,8 +9,10 @@ export default class Contacto extends Component {
       }
     render() {
         return (
-            <div>
-                Aquí me contactas
+            
+            <div className="contenido">
+            <h2>Antes de irte</h2>
+            Y si consideras menester, comunícate conmigo dejándome un mensaje en <a href="https://wa.link/673dr9" id="whatsapp"><i className="fa fa-whatsapp"></i> </a> y que gracias. 
             </div>
         )
     }

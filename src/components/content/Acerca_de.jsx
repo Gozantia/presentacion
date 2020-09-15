@@ -10,7 +10,8 @@ export default class Acerca_de extends Component {
     render() {
         return (
             <div className="contenido">
-               
+               <h2>Just another human been</h2>
+               <p>Es claro que uno no es solo lo que trabaja, sino como lo hace, es decir la persona que es.</p>
                 <div className="figura">
                 <h3>Carrera</h3>
                 <div className="detalle">
@@ -29,9 +30,17 @@ export default class Acerca_de extends Component {
                 
                 <div className="acercade">
                 <p>
-                <b>S</b>oy comunicador, diseñador y programador web de Medellín, Colombia. He trabajado con varias agencias de comunicaciones, gestionando las redes sociales de marcas, algunas de ellas de consumo masivo y con un gran volumen de seguidores. También me desempeño como diseñador web freelance, ofreciendo el servicio de  creación, mantenimiento y edición de sitios web en gestores de contenidos como Joomla y especialmente WordPress, teniendo la oportunidad de desarrollar portales de noticias, sitios web corporativos y tiendas virtuales.</p>
+                <b>S</b>oy comunicador, diseñador y programador web de Medellín, Colombia.
+                </p>
+                <p> He trabajado como Community Manager, gestionando redes sociales de marcas, algunas de consumo masivo.
+                </p>
+                <p>A partir del 2019 me desempeño como diseñador web freelance, donde presto el servicio de  creación, mantenimiento y edición de sitios web en gestores de contenidos como Joomla y especialmente WordPress.
+                </p>
                 <p>
-                Actualmente soy estudiante de Desarrollo Front-end en Academia Geek aprendiendo tecnologías como React JS.
+                En este campo he tenido la oportunidad de desarrollar portales de noticias, sitios web corporativos y tiendas virtuales.
+                </p>
+                <p>
+                Actualmente soy estudiante de Desarrollo Front-end en Academia Geek aprendiendo tecnologías como React JS y todo el entorno de trabajo que representa el desarrollo FrontEnd.
                 </p>
                 </div>
             </div>
