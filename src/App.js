@@ -71,11 +71,13 @@ export default class App extends Component {
           </Fade>
           }
           </section>
+          <Fade bottom>
         <Navbar
         show1={this.show1}
         show2={this.show2}
         show3={this.show3}
         />
+        </Fade>
       </article>
     )
   }

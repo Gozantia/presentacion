@@ -10,7 +10,7 @@ export default class Trabajos extends Component {
     render() {
         return (
             <div className="contenido">
-                <h2>You better Werk!</h2>
+                <h2>You better werk!</h2>
              <img src="https://media.giphy.com/media/B7YsPcMtLFE5y/giphy.gif" alt="You better" id="gif"/>
              <p>No lucen como el siguiente paso del diseño de interfaces pero es trabajo honesto. <span role="img" aria-label="tromps"> 🤓  </span></p>
              <div className="acercade">
