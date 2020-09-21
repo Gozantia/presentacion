@@ -5,8 +5,10 @@ function Side (props) {
     
         return (
             <section>
-                <div id="foto">
-                <img src={foto} onClick={show1} alt="gozantia"/>
+                <div id="foto" className="grow">
+                <li onClick={show1}>
+                <img src={foto} alt="gozantia"/>
+                </li>
                 </div>
             </section>
 

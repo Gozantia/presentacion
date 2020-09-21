@@ -54,7 +54,7 @@ export default class App extends Component {
        
         <header >
            <Fade right>
-          <Side />
+          <Side show1={this.show1} />
           </Fade>
         </header>
       

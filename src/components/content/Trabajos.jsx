@@ -23,13 +23,13 @@ export default class Trabajos extends Component {
                 </a>
             <p>Tener amigos músicos es una bacanería. Por eso en el futuro les haré la página de verdad a cambio de unas buenas serenatas.  </p>
                 <a href="https://gozantia.github.io/trompasymotas" rel="noopener noreferrer" target="_blank" >
-            <p class="project-title">
+            <p className="project-title">
                     Página de aterrizaje: Trompas y Motas
             </p>
             </a>
             <p>Trompas y Motas, representa también una idea de negocio aún no muy clara pero con la inspiración absoluta de los perros y gatos queridos. </p>
             <a href="https://gozantia.github.io/ElogiodelaDificultad" rel="noopener noreferrer" target="_blank" >
-               <p class="project-title">
+               <p className="project-title">
                Página de documentación: Elogio de la Dificultad
                </p>
             </a>
