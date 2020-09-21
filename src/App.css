@@ -52,6 +52,7 @@ font-family: 'Playfair Display', serif;
 list-style: none;
 font-size: 14px;
 line-height: 3;
+padding:0 10px;
 
 }
 .ajustecontenido {
@@ -61,16 +62,17 @@ line-height: 3;
 .redes a {
   font-size: 1rem;
   color: #fff;
+  padding:0 10px;
 }
 .redes a:hover {
   color: rgb(209, 73, 73);
 
 }
 .fondo {
-  height: 100vh;
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
-  padding: 0 10px;
+  padding:10px 10px 0;
   justify-content: space-between;
 }
 .grow { 
@@ -103,7 +105,8 @@ line-height: 3;
   border-radius: 7px;
   text-align: justify;
   max-width: 310px;
-  margin:-20px 10px;
+  margin: auto;
+  margin-top: -15px;
 }
 .contenido b {
   font-size: 35px;
@@ -143,8 +146,8 @@ line-height: 3;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 37% 100%, 50% 75%, 0% 75%);
 }
 #foto img {
-  width: 180px;
-  opacity: 0.5;
+  width: 100px;
+  opacity: .8;
 }
 header {
   margin: 0 auto -10px;
@@ -152,7 +155,7 @@ header {
 }
 
 .acercade {
-  height: 200px;
+  height: 230px;
   width: auto;
   overflow-x: hidden;
 }
