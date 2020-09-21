@@ -1,15 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import foto from './imgs/image.png'
-export default class Side extends Component {
-    render() {
+function Side (props) {
+    const { show1} = props;
+    
         return (
             <section>
                 <div id="foto">
-                <img src={foto}  alt="gozantia"/>
+                <img src={foto} onClick={show1} alt="gozantia"/>
                 </div>
             </section>
-            
-            
+
         )
-    }
+    
 }
+export default Side;
