@@ -25,7 +25,7 @@ function Navbar(props){
             <i className="fa fa-twitter"></i>
         </a>
       </div>
-      <ul>
+      <ul className="nav">
         <li onClick={show1} className="grow">
         Acerca de mi
         </li>

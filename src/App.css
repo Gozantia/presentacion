@@ -20,7 +20,7 @@ h1, h2, h3 {
   color: white;
 
 }
-section ul {
+section ul.nav {
   display: flex;
   gap: 19px;
   justify-content: center;
@@ -46,7 +46,7 @@ img#gif {
   float: right;
   margin: 10px;
 }
-li {
+ul.nav li {
 cursor: pointer;
 font-family: 'Playfair Display', serif;
 list-style: none;
@@ -179,7 +179,7 @@ header {
   .redes a {
     font-size: 1.5rem;
   }
-  li {
+  ul.nav li {
     font-size: 25px;
     line-height: 3;
     }
@@ -205,7 +205,7 @@ header {
     margin:0;
   
   }
-  section ul {
+  section ul.nav {
     flex-direction: column;
     margin: 0;
     padding: 0;
