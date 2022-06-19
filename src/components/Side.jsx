@@ -10,6 +10,7 @@ function Side (props) {
                 <img src={foto} alt="gozantia"/>
                 </li>
                 </div>
+                <h2>Santiago Gutiérrez González</h2>
             </section>
 
         )
