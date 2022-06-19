@@ -69,20 +69,22 @@ padding:0 10px;
 
 }
 .fondo {
-  height: -webkit-fill-available;
+  height:100vh;
   display: flex;
   flex-direction: column;
   padding:10px 10px 0;
   justify-content: space-between;
+
 }
 .grow { 
   transition: all .4s ease-in-out; 
+  opacity: .8;
   }
   
   .grow:hover { 
   transform: scale(1.1);
-  color: #a00e80;
-  margin-right:10px;
+  color: #c79dc3;
+  opacity: 1;
   }
 
 .acercade p {
@@ -142,12 +144,10 @@ padding:0 10px;
 
 }
 
-#foto{
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 37% 100%, 50% 75%, 0% 75%);
-}
 #foto img {
-  width: 100px;
-  opacity: .8;
+  width:100%;
+  cursor: pointer;
+  clip-path: polygon(0% 0%, 72% 0%, 100% 0%, 100% 72%, 68% 73%, 32% 95%, 33% 94%, 47% 75%, 0% 75%);
 }
 header {
   margin: 0 auto -10px;
@@ -167,23 +167,23 @@ header {
 }
 .redes {
   width: fit-content;
-  gap: 23px;
   display: flex;
   margin: 0 auto;
 }
+header h1 {
+
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 1080px) {
-  header section {
-    display: flex;
-  }
-  #foto img {
-    width: 100%;
-  }
+
+
+
   .redes a {
     font-size: 1.5rem;
   }
   ul.nav li {
-    font-size: 25px;
+    font-size: 19px;
     line-height: 3;
     }
   .nav h2 {
@@ -195,8 +195,6 @@ header {
   section.nav {
     text-align: right;
     display: grid;
-    grid-template-rows: 0.1fr 0.1fr 0.5fr;
-    height: 100vh;
     justify-items: end;
     margin-right: 25px;
   }
@@ -204,7 +202,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
-    width: 46%;
     margin:0;
   
   }
@@ -231,28 +228,30 @@ header {
   .fondo {
     display: grid;
     padding: 0px;  
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 190px 1fr;
     gap:0;
   }
   .vl {
-    border-left: 1px solid #2a2a2a;
-    height: 100vh;
+    border-left: 1px solid #d4a187;
+    height: -webkit-fill-available;
     position: absolute;
     right: 17px
   }
  header {
   margin:0;
   display: grid;
-  height: 95vh;
-  align-items: end;
-  background: linear-gradient(#3a1521, #062b48 );
+  align-items: start;
+  background: linear-gradient(#a15c72, #062b48 );
   padding: 15px;
+  color: #fff;
 }
 .contenedor {
 
+  margin: 0 50px;
+    display: grid;
+    align-items: center;
 
-  margin: 0 50px }
+}
 
 .acercade {
   height: 290px;

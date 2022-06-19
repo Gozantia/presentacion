@@ -6,11 +6,15 @@ function Side (props) {
         return (
             <section>
                 <div id="foto" className="grow">
-                <li onClick={show1}>
-                <img src={foto} alt="gozantia"/>
-                </li>
+           
+                <img src={foto} alt="gozantia" onClick={show1} />
+        
                 </div>
-                <h2>Santiago Gutiérrez González</h2>
+                <div>
+                <h1 onClick={show1}>@Gozantia</h1>
+                <small>Santiago Gutiérrez González</small>
+                </div>
+         
             </section>
 
         )
