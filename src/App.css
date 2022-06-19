@@ -172,7 +172,7 @@ header {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   #foto img {
     width: 100%;
   }
