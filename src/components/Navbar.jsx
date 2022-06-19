@@ -6,7 +6,7 @@ function Navbar(props){
   return ( 
   <section className="nav">
       <div className="vl"></div>
-      <h2>Santiago Gutiérrez</h2>
+      <h2>Santiago Gutiérrez González</h2>
       <div className="redes">
       <a
           href="https://github.com/Gozantia"
