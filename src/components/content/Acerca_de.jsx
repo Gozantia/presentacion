@@ -10,7 +10,7 @@ export default class Acerca_de extends Component {
     render() {
         return (
             <div className="contenido">
-               <h2>Just another human been</h2>
+               <h2>Just another human being</h2>
                <p>Es claro que uno no es solo lo que trabaja, sino como lo hace, es decir la persona que es.</p>
                 <div className="figura">
                 <h3>Carrera</h3>
