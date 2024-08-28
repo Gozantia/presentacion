@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from './imgs/image.png'
+import foto from './imgs/foto_doc.jpg'
 function Side (props) {
     const { show1} = props;
     
