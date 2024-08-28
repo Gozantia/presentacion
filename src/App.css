@@ -147,6 +147,9 @@ padding:0 10px;
 #foto img {
   width:100%;
   cursor: pointer;
+  height: 178px;
+  object-position: center bottom;
+  object-fit: cover;
   clip-path: polygon(0% 0%, 72% 0%, 100% 0%, 100% 72%, 68% 73%, 32% 95%, 33% 94%, 47% 75%, 0% 75%);
 }
 header {
