@@ -177,6 +177,10 @@ header h1 {
 
     cursor: pointer;
 }
+.home-entrance {
+  position: absolute;
+  right: 0;
+}
 
 @media only screen and (min-width: 1080px) {
 
