@@ -17,29 +17,46 @@ export default class Trabajos extends Component {
             </TabList>
             <TabPanel>
             <div className="acercade">
+            <a href="https://www.espiralraiz.com//" rel="noopener noreferrer" target="_blank">
+                    Espiral Raíz Danza: Landing page artística 
+            </a>
+            <p> Hecho en React JS y aún en proceso de mejora y construcción, este sitio web explora la trayectoria del grupo de baile. <br /> Aquí tuve el desafío de realizar un módulo responsivo que cumpliera con tener un video de fondo de Youtube que no afectara la velocidad de carga ni el SEO de la landing page</p>
+            <p>Cliente: espiral raiz Danza Experimental</p>
+            <p>Mayo de 2024</p>
+
+            <a href="https://babelfreeunion.com/" rel="noopener noreferrer" target="_blank">
+                    Babel Free Union : Sitio web corporativo 
+            </a>
+            <p> Hecho en Wordpress y aún en proceso de mejora y construcción, este sitio web cumple con el encargo y el diseño por parte de la clienta. <br /> Aquí, además del desarrollo tuve la oportunidad de diseñar el logo que actualmente usa la empresa y se encuentra en el header del sitio web </p>
+            <p>Clienta: Valentina Macias</p>
+            <p>Enero de 2024</p>
+
+            <a href="https://horizonthemedev.com/timeline" rel="noopener noreferrer" target="_blank">
+                    Timeline : Componente de tema
+            </a>
+            <p> Además de trabajar en múltiples sitios web, landing pages y mucho más. En On the Fuze, tuve la oportunidad de aportar módulos cómo éste para presentar información cronológica de forma llamativa. 
+
+            </p>
+            <p>Cliente: On the fUZE</p>
+            <p>Noviembre de 2023</p>
+            <a href="https://isamapas.vercel.app/" rel="noopener noreferrer" target="_blank">
+                    Informe ISA:  landing page</a>
+            <p>Este es uno de los proyectos que realicé cuando trabajé para Melborp donde tuve la oportunidad de trabajar con marcas grandes y exigentes de nivel internacional como lo es ISA, una operadora  de negocios de Energía Eléctrica </p>
+            <p>Cliente: Melborp</p>
+            <p>Mayo de 2022</p>
+            <a href="https://www.conexionjaguar.org/" rel="noopener noreferrer" target="_blank">
+                    Conexión Jaguar: Portal de proyecto 
+            </a>
+            <p> Realizado con Wordpress, este portal ofrece una gran cantidad de contenidos, secciones, animaciones e interacciones con detalles de una gran calidad y terminación </p>
+            <p>Cliente: Melborp</p>
+            <p>Enero de 2023</p>
             <a href="https://retrosoultienda.com" rel="noopener noreferrer" target="_blank">
                     RetroSoul Tienda : Tienda online de ropa de segunda Mano
             </a>
-            <p>Web E-commerce responsiva para celulares y con optimización SEO. </p>
+            <p>Web E-commerce responsiva para celulares y con optimización SEO. diseñada e implementada 100% por mi </p>
             <p>Clienta: Yudis Rivas</p>
             <p>Agosto de 2020</p>
-            <a href="http://afrocine.revistaviveafro.com/" rel="noopener noreferrer" target="_blank">
-                    Afrocine : Historia de la diáspora
-            </a>
-            <p> Landing Page para el especial periodístico del Quibdó África Film Festival </p>
-            <p>Cliente: Revista Vive Afro</p>
-            <p>Septiembre de 2020</p>
-            <a href="http://emprende.revistaviveafro.com/" rel="noopener noreferrer" target="_blank">
-                    Emprende Afro: ¡Impulsa tu proyecto emprendedor! </a>
-            <p>con servicios descargables dirigida a emprendedores afro, que se complementa con un directorio de empresas que se puede encontrar en el portal de la corporación.</p>
-            <p>Cliente: Revista Vive Afro</p>
-            <p>Enero de 2020</p>
-            <a href="http://revistaviveafro.com/" rel="noopener noreferrer" target="_blank">
-                    Revista ViveAfro: Portal especializado en temáticas afrocolombianas 
-            </a>
-            <p> Rediseño y actualización del CMS del portal de contenidos de la corporación</p>
-            <p>Cliente: Vanessa Márquez, directora Revista Vive Afro</p>
-            <p>Enero de 2020</p>
+
             <a href="http://hagalau.net/" rel="noopener noreferrer" target="_blank">
                     HagalaU: ¡No pase de largo!
             </a>
@@ -50,10 +67,10 @@ export default class Trabajos extends Component {
             </TabPanel>
             <TabPanel>
             <div className="acercade">
-             <a href="https://reto-pokemon.vercel.app/" rel="noopener noreferrer" target="_blank">
-                    Reto Pokemón : Soft Pokedex
+             <a href="https://gozandro.vercel.app//" rel="noopener noreferrer" target="_blank">
+                   Gozandro Parker : Sitio Web artístico
             </a>
-            <p>La exploración del consumo de una API Rest para React JS nunca fue tan divertida. Con mi sobrino que es fanático Pokemón, pasó la prueba. </p>
+            <p>Además de mi faceta como desarrollador y comunicador, también soy músico y hace unos años tuve la oportunidad de grabar un disco, por lo que también realicé un pequeño sitio web donde expongo un poco la letra y la razón de ser del sitio web </p>
              <a href="https://gozantia.github.io/lapregonera/" rel="noopener noreferrer" target="_blank">
                     Página tributo: La Pregonera Orquesta
                 </a>
