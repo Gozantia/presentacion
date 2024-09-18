@@ -32,16 +32,13 @@ export default class Acerca_de extends Component {
                 <p>
                 <b>S</b>oy comunicador, diseñador y programador web de Medellín, Colombia.
                 </p>
-                <p> He trabajado como Community Manager, gestionando redes sociales de marcas, algunas de consumo masivo.
-                </p>
-                <p>A partir del 2019 me desempeño como diseñador web freelance, donde presto el servicio de  creación, mantenimiento y edición de sitios web en gestores de contenidos como Joomla y especialmente WordPress.
+                <p> He trabajado como Social Manager, pero a partir del 2019 me desempeño como diseñador y desarrollador web freelance, donde presto el servicio de  creación, mantenimiento y edición de sitios web en gestores de contenidos como  WordPress.
                 </p>
                 <p>
                 En este campo he tenido la oportunidad de desarrollar portales de noticias, sitios web corporativos y tiendas virtuales.
                 </p>
                 <p>
-                Actualmente soy estudiante de Desarrollo Front-end en Academia Geek aprendiendo tecnologías como React JS y todo el entorno de trabajo que representa el desarrollo FrontEnd.
-                </p>
+                De 2020 a 2024 he tenido la oportunidad de trabajar como Front End Developer para dos grandes agencias digitales. donde tuve la oportunidad de crecer profesionalmente y trabajar el desarrollo de productos digitales de grandes marcas                 </p>
                 </div>
             </div>
         )
